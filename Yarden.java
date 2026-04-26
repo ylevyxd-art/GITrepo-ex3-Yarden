@@ -1,7 +1,9 @@
 public class Yarden {
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("Yarden");
+        System.out.println("=== Yarden's Personal Greeting ===");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i + ". Hello from Yarden Levy!");
         }
+        System.out.println("=== End of Greeting ===");
     }
 }
